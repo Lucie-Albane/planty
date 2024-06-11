@@ -11,3 +11,41 @@ Licence URI: http://www.gnu.org/licenses/glp-2.0.html
 Tags: Boissons, végétale
 Text Domain: planty
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+body * {
+   font-family: 'Syne', sans-serif;
+}
+
+p {
+   color: #000;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.color-pink {
+    color: #D2776A;
+}
+.color-green {
+    color: #3B8E46;
+}
+
+.background-pink {
+    background-color: #D2776A;
+}
+.background-beige {
+    background-color: #ECE2DA;
+}
+.background-green {
+    background-color: #3B8E46;
+}

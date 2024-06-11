@@ -1,0 +1,16 @@
+/* menu */
+li.menu-item a, #site-footer a {
+    color: #000 !important;
+}
+li.menu-item a:hover, .primary-menu li.current-menu-item > a {
+    font-weight: 700;
+}
+
+#site-footer a:hover, .primary-menu li.current-menu-item > a {
+    text-decoration: none !important;
+}
+
+#site-footer .section-inner {
+    display: flex;
+    justify-content: center;
+}
