@@ -6,7 +6,7 @@ li.menu-item a:hover, .primary-menu li.current-menu-item > a {
     font-weight: 700;
 }
 
-#site-footer a:hover, .primary-menu li.current-menu-item > a {
+#site-footer a:hover, .primary-menu li.current-menu-item > a,li.menu-item a:hover {
     text-decoration: none !important;
 }
 
