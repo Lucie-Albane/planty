@@ -35,7 +35,6 @@ p {
 
 h1 {
     font-weight: 800 !important;
-    font-size: 38px !important;
     line-height: 45.6px !important;
     text-align: center !important;
     font-family: 'Syne', sans-serif !important;
@@ -44,7 +43,6 @@ h1 {
 h2 {
     font-weight: 800 !important;
     font-size: 30px !important;
-    line-height: 36px !important;
     text-align: center !important;
     font-family: 'Syne', sans-serif !important;
 }

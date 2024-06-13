@@ -47,3 +47,8 @@ li.menu-item:last-child a:hover {
     display: flex;
     justify-content: center;
 }
+#site-footer {
+    border: none !important;
+    margin : 0 !important;
+    padding: 20px;
+}
