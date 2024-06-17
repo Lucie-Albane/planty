@@ -25,17 +25,9 @@ p {
     display: none;
 }
 
-.max-width-unset {
-    max-width: unset !important;
-}
-
-.fit-content {
-    width: fit-content !important;
-}
-
 h1 {
     font-weight: 800 !important;
-    line-height: 45.6px !important;
+    font-size: 38px !important;
     text-align: center !important;
     font-family: 'Syne', sans-serif !important;
 }
@@ -51,21 +43,4 @@ h3 {
     font-weight: 700 !important;
     font-size: 30px !important;
     font-family: 'Syne', sans-serif !important;
-}
-
-.color-pink {
-    color: #D2776A;
-}
-.color-green {
-    color: #3B8E46;
-}
-
-.background-pink {
-    background-color: #D2776A;
-}
-.background-beige {
-    background-color: #ECE2DA;
-}
-.background-green {
-    background-color: #3B8E46;
 }

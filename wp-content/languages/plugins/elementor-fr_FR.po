@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-15 10:18:23+0000\n"
+"PO-Revision-Date: 2024-06-13 10:08:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,22 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release)\n"
+
+#: modules/promotions/admin-menu-items/go-pro-promotion-item.php:33
+msgid "Upgrade Sale Now"
+msgstr "Mettre à niveau la promo maintenant"
+
+#: core/admin/admin.php:350
+msgid "Discounted Upgrades Now!"
+msgstr "Mettre à niveau à prix réduit maintenant !"
+
+#: core/admin/admin-notices.php:466
+msgid "Automatically compress and optimize images, resize larger files, or convert to WebP. Optimize images individually, in bulk, or on upload."
+msgstr "Compressez et optimisez automatiquement les images, redimensionnez les fichiers plus volumineux ou convertissez-les au format WebP. Optimisez les images individuellement, en masse ou lors du téléversement."
+
+#: core/admin/admin-notices.php:465
+msgid "Speed up your website with Image Optimizer by Elementor"
+msgstr "Accélérez votre site avec Image Optimizer d’Elementor"
 
 #: modules/home/module.php:92
 msgid "Default Elementor menu page."
@@ -73,6 +89,22 @@ msgstr "Elementor ne fonctionne pas parce que PHP est obsolète."
 msgid "You do not have permission to upload JSON files."
 msgstr "Vous n’avez pas le droit de téléverser des fichiers JSON."
 
+#: core/experiments/manager.php:474
+msgid "Use this experiment to improve control loading. This experiment improves site performance by loading controls only when needed."
+msgstr "Utilisez cette expérience pour améliorer le chargement des contrôles. Cette expérience améliore les performances du site en chargeant les contrôles uniquement lorsque cela est nécessaire."
+
+#: core/experiments/manager.php:472
+msgid "Optimized Control Loading"
+msgstr "Chargement optimisé des contrôles"
+
+#: core/experiments/manager.php:461
+msgid "Improve the performance of the Nested widgets."
+msgstr "Améliorer les performances des widgets imbriqués."
+
+#: core/experiments/manager.php:459
+msgid "Nested Elements Performance"
+msgstr "Performances des éléments imbriqués"
+
 #: core/admin/admin.php:977
 msgid "to reduce size without losing quality."
 msgstr "pour réduire la taille sans perdre en qualité."
@@ -101,6 +133,15 @@ msgstr "Vous souhaitez créer des chemins de texte personnalisés avec SVG ?"
 msgid "Add any icon, anywhere on your website"
 msgstr "Ajoutez n’importe quelle icône, n’importe où sur votre site"
 
+#: modules/promotions/admin-menu-items/custom-icons-promotion-item.php:33
+msgid "Expand your icon library beyond FontAwesome and add icon %s libraries of your choice"
+msgstr "Augmentez votre bibliothèque d’icônes au-delà de FontAwesome et ajoutez les bibliothèques d’icônes %s de votre choix"
+
+#. translators: %s: br
+#: modules/promotions/admin-menu-items/custom-fonts-promotion-item.php:31
+msgid "Remain GDPR compliant with Custom Fonts that let you disable %s Google Fonts from your website"
+msgstr "Restez conforme au RGPD grâce aux polices personnalisées qui vous permettent de désactiver %s polices Google de votre site."
+
 #: modules/promotions/admin-menu-items/custom-fonts-promotion-item.php:28
 msgid "Upload any font to keep your website true to your brand"
 msgstr "Téléversez n’importe quelle police pour que votre site reste fidèle à votre marque"
@@ -116,6 +157,14 @@ msgstr "Tirez parti d’Elementor AI pour générer instantanément du code pers
 #: modules/promotions/admin-menu-items/custom-code-promotion-item.php:29
 msgid "Use Custom Code to create sophisticated custom interactions to engage visitors"
 msgstr "Utilisez le code personnalisé pour créer des interactions personnalisées sophistiquées pour engager les internautes"
+
+#: modules/promotions/admin-menu-items/custom-code-promotion-item.php:28
+msgid "Add Custom Code snippets anywhere on your website, including the header or footer to measure your page’s performance*"
+msgstr "Ajoutez des extraits de code personnalisé n’importe où sur votre site, y compris dans l’entête ou le pied de page, pour mesurer les performances de votre page *"
+
+#: modules/promotions/admin-menu-items/custom-code-promotion-item.php:23
+msgid "Enjoy Creative Freedom with Custom Code"
+msgstr "Profitez de la liberté de création avec le code personnalisé"
 
 #: modules/apps/module.php:70
 msgid "For Elementor"
@@ -134,6 +183,10 @@ msgstr "Nouveau ! Modules populaires"
 #: assets/js/editor.js:37794
 msgid "Add-ons"
 msgstr "Modules"
+
+#: modules/apps/admin-apps-page.php:34
+msgid "Please note that certain tools and services on this page are developed by third-party companies and are not part of Elementor's suite of products or support. Before using them, we recommend independently evaluating them. Additionally, when clicking on their action buttons, you may be redirected to an external website."
+msgstr "Veuillez noter que certains outils et services de cette page sont développés par des sociétés tierces et ne font pas partie de la suite de produits ou de support d’Elementor. Avant de les utiliser, nous vous recommandons de les évaluer indépendamment. De plus, lorsque vous cliquez sur leurs boutons d’action, vous pouvez être redirigé vers un site externe."
 
 #: includes/widgets/text-editor.php:146
 msgid "10"
@@ -179,9 +232,22 @@ msgstr "1"
 msgid "Content Spacing"
 msgstr "Espacement du contenu"
 
+#: includes/widgets/common.php:923
+msgid "Explore additional Premium Shape packs and use them in your site."
+msgstr "Explorez des packs Premium Shape supplémentaires à utiliser sur votre site."
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: includes/settings/tools.php:331
+msgid "It is strongly recommended to %1$sbackup the database%2$s before using replacing URLs."
+msgstr "Il est fortement recommandé de %1$ssauvegarder la base de données%2$s avant de remplacer les URL."
+
 #: includes/controls/base-units.php:138
 msgid "Custom unit"
 msgstr "Unité personnalisée"
+
+#: core/role-manager/role-manager.php:215
+msgid "Giving broad access to edit the HTML widget can pose a security risk to your website because it enables users to run malicious scripts, etc."
+msgstr "Donner un large accès pour modifier le widget HTML peut présenter un risque de sécurité pour votre site, car cela permet aux utilisateurs/utilisatrices d’exécuter des scripts malveillants, etc."
 
 #: core/role-manager/role-manager.php:213
 msgid "Enable the option to use the HTML widget"
@@ -221,9 +287,34 @@ msgstr "Effets de défilement"
 msgid "Install Plugin"
 msgstr "Installer l’extension"
 
+#: includes/controls/gallery.php:120 includes/controls/media.php:270
+msgid "Don’t let unoptimized images be the downfall of your site’s performance. Use Image Optimizer!"
+msgstr "Ne laissez pas les images non optimisées nuire aux performances de votre site. Utilisez l’Optimiseur d’image !"
+
+#: modules/promotions/admin-menu-items/custom-code-promotion-item.php:35
+#: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:48
+msgid "* Requires an Advanced subscription or higher"
+msgstr "* Nécessite un abonnement Advanced ou supérieur"
+
+#: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:35
+msgid "Collect lead submissions directly within your WordPress Admin to manage, analyze and perform bulk actions on the submitted lead*"
+msgstr "Collectez les envois de prospect directement dans votre administration WordPress pour gérer, analyser et effectuer des actions groupées sur la prospection envoyée *"
+
 #: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:34
 msgid "Integrate your favorite marketing software*"
 msgstr "Intégrez votre logiciel de marketing préféré*"
+
+#: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:33
+msgid "Use any field to collect the information you need"
+msgstr "Utilisez n’importe quel champ pour collecter les informations dont vous avez besoin"
+
+#: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:32
+msgid "Create single or multi-step forms to engage and convert visitors"
+msgstr "Créez des formulaires en une ou plusieurs étapes pour engager et convertir les internautes"
+
+#: includes/widgets/video.php:107
+msgid "Get the Video Playlist widget and grow your toolbox with Elementor Pro."
+msgstr "Obtenez le widget Vidéo Playlist et développez votre boîte à outils avec Elementor PRO."
 
 #: includes/widgets/video.php:106
 msgid "Grab your visitors' attention"
@@ -241,6 +332,10 @@ msgstr "John Doe"
 msgid "Custom Spacing"
 msgstr "Espacement personnalisé"
 
+#: includes/widgets/button.php:96
+msgid "Get the Call to Action widget and grow your toolbox with Elementor Pro."
+msgstr "Obtenez le widget Call to Action et développez votre boîte à outils avec Elementor PRO."
+
 #: includes/widgets/button.php:95
 msgid "Convert visitors into customers"
 msgstr "Convertissez vos internautes en clients/clientes"
@@ -253,6 +348,10 @@ msgstr "Vous n’avez pas les droits pour exporter ce modèle."
 msgid "You do not have permission to access this template."
 msgstr "Vous n’avez pas le droit d’accéder à ce modèle."
 
+#: includes/template-library/manager.php:430
+msgid "Invalid template type or template does not exist."
+msgstr "Type de modèle non valide ou le modèle n’existe pas"
+
 #: includes/managers/controls.php:1252 assets/js/editor.js:51391
 msgid "Display Conditions"
 msgstr "Conditions d’affichage"
@@ -264,6 +363,15 @@ msgstr "Générer des variations"
 #: includes/controls/groups/background.php:162
 msgid "Set locations and angle for each breakpoint to ensure the gradient adapts to different screen sizes."
 msgstr "Définissez les positions et l’angle de chaque point de rupture pour garantir que le dégradé s’adapte aux différentes tailles d’écran."
+
+#: core/role-manager/role-manager.php:197
+msgid "Giving broad access to upload JSON files can pose a security risk to your website because such files may contain malicious scripts, etc."
+msgstr "Donner un large accès au téléversement de fichiers JSON peut présenter un risque de sécurité pour votre site, car ces fichiers peuvent contenir des scripts malveillants, etc."
+
+#: core/role-manager/role-manager.php:197
+#: core/role-manager/role-manager.php:215
+msgid "Heads up"
+msgstr "Attention"
 
 #: core/role-manager/role-manager.php:195
 msgid "Enable the option to upload JSON files"
@@ -292,6 +400,26 @@ msgstr "Widgets WordPress"
 #: modules/element-manager/ajax.php:116
 msgid "Invalid nonce."
 msgstr "Nonce non valide."
+
+#: modules/element-manager/ajax.php:111
+msgid "You do not have permission to edit these settings."
+msgstr "Vous n’êtes pas autorisé à modifier ces réglages."
+
+#: modules/ai/module.php:118
+msgid "Tap into the potential of AI to easily create and customize containers to your specifications, right within Elementor. This feature comes packed with handy AI tools, including generation, variations, and URL references."
+msgstr "Exploitez le potentiel de l’IA pour créer et personnaliser facilement des conteneurs selon vos spécifications, directement dans Elementor. Cette fonctionnalité est livrée avec des outils d’IA pratiques, notamment la génération, les variantes et les URL de référence."
+
+#: includes/widgets/image-gallery.php:90 includes/widgets/testimonial.php:91
+msgid "Use interesting masonry layouts and other overlay features with Elementor's Pro Gallery widget."
+msgstr "Utilisez des mises en page masonry et d’autres fonctionnalités de superposition avec le widget Galerie d’Elementor PRO."
+
+#: includes/widgets/image-carousel.php:91
+msgid "Gain complete freedom to design every slide with Elementor\"s Pro Carousel."
+msgstr "Bénéficiez d’une totale liberté pour concevoir chaque diapositive avec le carrousel d’Elementor PRO."
+
+#: includes/widgets/heading.php:134
+msgid "Create captivating headings that rotate with the Animated Headline Widget."
+msgstr "Créez des titres captivants et rotatifs avec le widget de titres animés."
 
 #: includes/template-library/sources/local.php:246
 msgid "Parent Template:"
@@ -327,12 +455,29 @@ msgstr "Ajouter un nouveau modèle"
 msgid "Image Resolution"
 msgstr "Résolution de l’image"
 
+#: includes/controls/groups/flex-container.php:187
+msgid "No Wrap"
+msgstr "Pas de retour à la ligne"
+
+#: includes/controls/groups/flex-container.php:183
+#: includes/controls/groups/flex-container.php:191
+msgid "Wrap"
+msgstr "Retour à la ligne"
+
+#: core/experiments/manager.php:427
+msgid "Container-based content will be hidden from your site and may not be recoverable in all cases."
+msgstr "Le contenu basé sur un conteneur sera masqué sur votre site et ne sera peut-être pas récupérable dans tous les cas. %1$sEn savoir plus%2$s"
+
 #: core/common/modules/finder/categories/settings.php:71
 #: modules/element-manager/admin-menu-app.php:22
 #: modules/element-manager/admin-menu-app.php:26
 #: modules/element-manager/admin-menu-app.php:35
 msgid "Element Manager"
 msgstr "Gestionnaire d’élément"
+
+#: core/admin/admin.php:631
+msgid "AI Prompts Library"
+msgstr "Bibliothèque de propositions IA"
 
 #. translators: %s: Recommended PHP version.
 #: modules/system-info/reporters/server.php:132
@@ -346,6 +491,10 @@ msgstr "Elementor pleine largeur"
 #: modules/page-templates/module.php:157
 msgid "Elementor Canvas"
 msgstr "Elementor canevas"
+
+#: modules/nested-accordion/widgets/nested-accordion.php:304
+msgid "Let Google know that this section contains an FAQ. Make sure to only use it only once per page"
+msgstr "Indiquer à Google que cette section contient une FAQ. Veillez à ne l’utiliser qu’une seule fois par page."
 
 #: modules/image-loading-optimization/module.php:243
 msgid "An image should not be lazy-loaded and marked as high priority at the same time."
@@ -387,6 +536,10 @@ msgstr "Vous êtes en train de modifier un widget de classement par étoiles dan
 #: includes/widgets/rating.php:296
 msgid "Rated %1$s out of %2$s"
 msgstr "Noté %1$s sur %2$s"
+
+#: includes/settings/tools.php:147
+msgid "An error occurred, the selected version is invalid. Try selecting different version."
+msgstr "Une erreur s’est produite, la version sélectionnée n’est pas valide. Essayez de sélectionner une autre version."
 
 #: includes/controls/groups/typography.php:218
 msgid "Letter Spacing"
@@ -610,6 +763,10 @@ msgstr "Déplier"
 msgid "Item Position"
 msgstr "Position de l’élément"
 
+#: modules/apps/admin-pointer.php:30
+msgid "Discover our collection of plugins and add-ons carefully selected to enhance your Elementor website and unleash your creativity."
+msgstr "Découvrez notre collection d’extension et de modules sélectionnés pour améliorer votre site et laisser libre cours à votre créativité."
+
 #: modules/apps/admin-apps-page.php:26
 msgid "Learn more about this page."
 msgstr "En apprendre plus concernant cette page."
@@ -621,6 +778,10 @@ msgstr "Augmentez votre processus de création avec des modules complémentaires
 #: modules/apps/admin-apps-page.php:24
 msgid "Popular Add-ons, New Possibilities."
 msgstr "Modules populaires, nouvelles possibilités."
+
+#: includes/widgets/video.php:925
+msgid "Note: These controls have been deprecated and are only visible if they were previously in use. The video’s width and position are now set based on its aspect ratio."
+msgstr "Remarque : ces contrôles sont obsolètes et ne sont visibles que s’ils étaient utilisés auparavant. La largeur et la position de la vidéo sont désormais définies en fonction de son rapport hauteur/largeur."
 
 #: includes/widgets/video.php:233
 msgid "Choose Video File"
@@ -852,6 +1013,10 @@ msgstr "Ligne"
 msgid "Switch units"
 msgstr "Changer d’unités"
 
+#: core/experiments/manager.php:447
+msgid "Create pixel perfect layouts by placing elements in a customizable grid. Activate to add the CSS Grid option to container elements."
+msgstr "Créez des mises en page parfaites au pixel près en plaçant des éléments dans une grille personnalisable. Activez pour ajouter l’option Grid CSS aux éléments de conteneur. %1$sEn savoir plus%2$s"
+
 #: core/experiments/manager.php:443
 msgid "Grid Container"
 msgstr "Conteneur grille"
@@ -881,6 +1046,10 @@ msgstr "Alignement horizontal"
 #: includes/widgets/alert.php:491 includes/widgets/alert.php:546
 msgid "Dismiss this alert."
 msgstr "Ignorer cette alerte."
+
+#: core/editor/editor.php:613
+msgid "Get a sneak peek of the new Editor powered by React. The beautiful design and experimental layout of the Top bar are just some of the exciting tools on their way."
+msgstr "Découvrez en avant-première le nouvel éditeur optimisé par React. Le beau design et la disposition expérimentale de la barre Top ne sont que quelques-uns des outils passionnants sur leur chemin. %s"
 
 #: core/editor/editor.php:610
 msgid "Editor Top Bar"
@@ -991,9 +1160,17 @@ msgstr "Onglet N°%d"
 msgid "Tab #%s"
 msgstr "Onglet n°%s"
 
+#: modules/nested-elements/module.php:20
+msgid "Create a rich user experience by layering widgets together inside \"Nested\" Tabs, etc. When turned on, we’ll automatically enable new nested features. Your old widgets won’t be affected."
+msgstr "Créez une expérience utilisateur riche en plaçant des widgets dans des onglets « imbriqués », etc. Une fois activés, nous activerons automatiquement de nouvelles fonctionnalités imbriquées. Vos anciens widgets ne seront pas affectés. %1$sEn savoir plus%2$s"
+
 #: modules/nested-elements/module.php:17
 msgid "Nested Elements"
 msgstr "Éléments imbriqués"
+
+#: includes/widgets/video.php:589
+msgid "Preload attribute lets you specify how the video should be loaded when the page loads."
+msgstr "L’attribut de préchargement vous permet de spécifier comment la vidéo doit être chargée lors du chargement de la page. %1$sEn savoir plus%2$s"
 
 #: includes/widgets/video.php:583
 msgid "Metadata"
@@ -1173,6 +1350,16 @@ msgstr "Définit l’espacement par défaut dans le conteneur (par défaut : 10
 #: core/kits/documents/tabs/settings-layout.php:88
 msgid "Container Padding"
 msgstr "Marges internes du conteneur"
+
+#: core/experiments/manager.php:407
+msgid ""
+"Create advanced layouts and responsive designs with the new %1$sFlexbox Container element%2$s.\n"
+"\t\t\t\t\tThis experiment replaces the current section/column structure, but you'll still keep your existing\n"
+"\t\t\t\t\tSections, Inner Sections and Columns and be able to edit them. Ready to give it a try? Check out the %3$sFlexbox playground%4$s."
+msgstr ""
+"Créez des mises en page avancées et des designs responsives avec le nouvel élément %1$sConteneur Flexbox%2$s.\n"
+"\t\t\t\tCette expérience remplace la structure actuelle en sections/colonnes, mais vous conserverez votre structure existante\n"
+"\t\t\t\tSections, sections intérieures et colonnes que l’on peut modifier. Prêt à essayer ? Découvrez le %3$sfonctionnement de la Flexbox%4$s."
 
 #: core/experiments/manager.php:444
 msgid "Feature"
@@ -3958,7 +4145,7 @@ msgstr "Créer un nouvel article"
 
 #: includes/fonts.php:77
 msgid "Google (Early Access)"
-msgstr "Google (accès anticipé)"
+msgstr "Google (Early Access)"
 
 #: modules/history/revisions-manager.php:157
 msgid "Current Version"
@@ -4290,6 +4477,10 @@ msgstr "Fin"
 #: modules/nested-tabs/widgets/nested-tabs.php:324
 msgid "Start"
 msgstr "Début"
+
+#: core/debug/loading-inspection-manager.php:36
+msgid "We’re sorry, but something went wrong. Click on 'Learn more' and follow each of the steps to quickly solve it."
+msgstr "Nous sommes désolés, mais quelque chose s’est mal passé. Cliquer sur « En apprendre plus » et suivez chacune des étapes pour rapidement résoudre cela."
 
 #: core/debug/classes/inspection-base.php:25
 #: core/debug/loading-inspection-manager.php:37
@@ -5129,6 +5320,11 @@ msgstr "Bibliothèque de modèles"
 #: includes/editor-templates/global.php:46
 msgid "Add Template"
 msgstr "Ajouter un modèle"
+
+#. translators: %s: WordPress child themes documentation.
+#: modules/system-info/reporters/theme.php:207
+msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
+msgstr "Pour modifier le code source de votre thème, nous vous recommandons d’utiliser un <a href=\"%s\">thème enfant</a>."
 
 #: app/modules/import-export/module.php:152
 #: app/modules/import-export/module.php:164 core/admin/admin-notices.php:329
@@ -6365,6 +6561,10 @@ msgstr "Accordéon"
 #: core/admin/admin-notices.php:238
 msgid "Sure! I'd love to help"
 msgstr "Évidemment ! J’adorerais aider"
+
+#: modules/system-info/module.php:204
+msgid "You do not have permission to download this file."
+msgstr "Vous n’avez pas les droits suffisants pour télécharger ce fichier."
 
 #: modules/system-info/module.php:162 modules/system-info/module.php:186
 msgid "Download System Info"

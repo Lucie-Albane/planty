@@ -24,7 +24,6 @@ li.menu-item a:hover {
     font-size: 14px;
     line-height: 15.6px;
 }
-
 #site-footer a:hover, .primary-menu li.current-menu-item > a , li.menu-item a:hover {
     text-decoration: none !important;
 }
@@ -43,6 +42,7 @@ li.menu-item:last-child a:hover {
     line-height: 19.2px;
 }
 
+/* footer */
 #site-footer .section-inner {
     display: flex;
     justify-content: center;
@@ -51,4 +51,106 @@ li.menu-item:last-child a:hover {
     border: none !important;
     margin : 0 !important;
     padding: 20px;
+}
+
+/* titres */
+h1 {
+    font-weight: 800 !important;
+    font-size: 38px !important;
+    text-align: center !important;
+    font-family: 'Syne', sans-serif !important;
+}
+h3 {
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    font-family: 'Syne', sans-serif !important;
+}
+
+/* form */
+.wpforms-form {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+.wpforms-field-container {
+    width: 100% !important;
+}
+label {
+    font-weight: 500 !important;
+}
+.wpforms-field-large {
+    height: 70px !important;
+}
+.wpforms-field-large, textarea {
+    border-radius: 7px !important;
+    border: none !important;
+}
+input:focus, textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #C02E44 !important;
+}
+button:after {
+    content: none !important;
+}
+textarea {
+    height: 235px !important;
+}
+.wpforms-submit {
+    background-color: #E0B9B4 !important;
+    height: 55px !important;
+    width: 200px !important;
+}
+.wpforms-submit:hover {
+    background-color: #C02E44 !important;
+}
+.wpforms-confirmation-container-full {
+    background-color: #DC9F96 !important;
+    border: none !important;
+    border-radius: 7px !important;
+    text-align: center;
+    font-weight: 500;
+}
+/* Responsive */
+@media (max-width: 1024px) {
+    .header-inner {
+        padding: 30px 0 !important;
+        margin: 0 !important;
+        max-width: unset;
+        width: 100%;
+    }
+    .custom-logo-link img {
+        width: 250px;
+        padding-left: 10px;
+    }
+    .mobile-nav-toggle {
+        padding: 0 60px !important;
+        justify-content: center !important;
+    }
+    .toggle-icon {
+        color:#C02E44;
+    }
+    .toggle-text {
+        display: none;
+    }
+    .mobile-nav-toggle:hover, .toggle {
+        background-color: #DC9F96 !important;
+    }
+    .section-inner {
+        max-width: unset !important;
+        width: 100% !important;
+        margin: 0;
+    }
+    .ancestor-wrapper a {
+        font-size: 16px !important;
+        text-decoration: none !important;
+    }
+    li.menu-item a:hover, li.menu-item:last-child:hover, li.menu-item:last-child a:hover, .primary-menu li.current-menu-item > a:hover {
+        font-size: 16px !important;
+        line-height: unset !important;
+        font-weight: 700 !important;
+    }
+    li.menu-item {
+        padding: 10px ;
+    }
 }
