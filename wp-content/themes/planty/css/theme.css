@@ -66,7 +66,8 @@ h3 {
     font-family: 'Syne', sans-serif !important;
 }
 
-/* form */
+/* forms */
+/* contact */
 .wpforms-form {
     display: flex !important;
     flex-direction: column;
@@ -78,10 +79,10 @@ h3 {
 label {
     font-weight: 500 !important;
 }
-.wpforms-field-large {
+input {
     height: 70px !important;
 }
-.wpforms-field-large, textarea {
+input, textarea {
     border-radius: 7px !important;
     border: none !important;
 }
@@ -111,6 +112,87 @@ textarea {
     text-align: center;
     font-weight: 500;
 }
+
+/* order */
+.form-container, .top-form-container label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-form-container{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 40px 0;
+}
+.top-form-container, .bottom-form-container, .wpcf7-submit {
+    width: 100%;
+}
+.top-form-content p, .bottom-form-container {
+    display: flex;
+    justify-content: space-between;
+}
+.top-form-container label:nth-of-type(1):before {
+    content: 'FRAISE';
+    background: url(../../../uploads/2024/06/fraise.png);
+    background-size: cover;
+}
+.top-form-container label:nth-of-type(2):before {
+    content: 'PAMPLE MOUSSE';
+    background: url(../../../uploads/2024/06/pamplemousse.png);
+    background-size: cover;
+}
+.top-form-container label:nth-of-type(3):before {
+    content: 'FRAM BOISE';
+    background: url(../../../uploads/2024/06/framboise.png);
+    background-size: cover;
+}
+.top-form-container label:nth-of-type(4):before {
+    content: 'CITRON';
+    background: url(../../../uploads/2024/06/citron.png);
+    background-size: cover;
+}
+.top-form-container label:before {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+    height: 160px;
+    width: 240px;
+    padding: 20px;
+}
+.top-form-container label span {
+    width: 50px;
+}
+.right-form, .left-form {
+    width: 50%;
+}
+.left-form {
+    padding-right: 40px;
+    border-right: 1px solid #fff;
+}
+.right-form {
+    padding-left: 40px;
+}
+.top-form-container h3, .bottom-form-container h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.bottom-form-container {
+    margin: 40px 0;
+}
+.top-form-container h3, .bottom-form-container h3, .form-container label {
+    color: #fff;
+}
+.form-container input {
+    margin-top: 10px;
+}
+.wpcf7-submit {
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .header-inner {
@@ -152,5 +234,20 @@ textarea {
     }
     li.menu-item {
         padding: 10px ;
+    }
+    .top-form-content p, .bottom-form-container {
+        flex-wrap: wrap;
+    }
+    .top-form-content p label {
+        flex-direction: row;
+        min-width: 50%;
+    }
+    .top-form-content p label::before {
+        margin-right: 50px;
+    }
+    .left-form, .right-form {
+        width: 100%;
+        border: none;
+        padding: 0;
     }
 }
