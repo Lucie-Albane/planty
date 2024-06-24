@@ -1,0 +1,295 @@
+/*
+Theme Name: Planty
+Theme URI: https://openclassrooms.com/
+Description: Thème Planty basé sur le thème TwentyTwenty
+Author: Lucie Albane
+Author URI: https://openclassrooms.com/
+Template: twentytwenty
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Licence URI: http://www.gnu.org/licenses/glp-2.0.html
+Tags: Boissons, végétale
+Text Domain: planty
+*/
+
+/* general */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+body * {
+   font-family: 'Syne', sans-serif;
+}
+
+p {
+   color: #000;
+}
+
+.entry-header {
+    display: none;
+}
+
+/* titres */
+h1,
+.heading-size-1 {
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+}
+
+h2,
+.heading-size-2 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+}
+
+h3,
+.heading-size-3 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Syne', sans-serif;
+}
+
+/* menu */
+.header-inner {
+    padding: 0;
+    margin: 0;
+    max-width: unset;
+    width: 100%;
+}
+.custom-logo-link img {
+    width: 250px;
+    padding-left: 35px;
+}
+body:not(.overlay-header) .primary-menu > .menu-item > a, .footer-credits .privacy-policy a {
+    color: #000000;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+li.menu-item {
+    padding: 30px 60px;
+}
+body:not(.overlay-header) .primary-menu > .menu-item > a:hover, .primary-menu li.current-menu-item > a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15.6px;
+}
+.footer-credits .privacy-policy a, .primary-menu li.current-menu-item > a , .primary-menu > .menu-item > a:hover {
+    text-decoration: none;
+}
+li.menu-item:last-child {
+    background-color: #DC9F96;
+}
+li.menu-item:last-child:hover {
+    background-color: #C02E44;
+}
+li.menu-item:last-child a {
+    color: #fff !important;
+}
+li.menu-item:last-child a:hover {
+    font-weight: unset;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+/* footer */
+#site-footer .section-inner {
+    display: flex;
+    justify-content: center;
+}
+.footer-top-hidden #site-footer {
+    border: none;
+    margin : 0;
+    padding: 20px;
+}
+
+/* forms */
+/* contact */
+div.wpforms-container-full * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wpforms-container .wpforms-form * {
+    width: 100%;
+}
+label {
+    font-weight: 500 !important;
+}
+input {
+    height: 70px !important;
+}
+input, textarea {
+    border-radius: 7px !important;
+    border: none !important;
+}
+input:focus, textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #C02E44 !important;
+}
+button:after {
+    content: none !important;
+}
+textarea {
+    height: 235px !important;
+}
+div.wpforms-container-full button[type=submit]:not(:hover):not(:active) {
+    background-color: #E0B9B4;
+    height: 55px;
+    width: 200px;
+    align-items: center;
+}
+div.wpforms-container-full button[type=submit]:hover {
+    background-color: #C02E44;
+    height: 55px;
+    width: 200px;
+    align-items: center;
+}
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+    align-items: center;
+}
+div.wpforms-container-full .wpforms-confirmation-container-full, .wpcf7 form.failed .wpcf7-response-output {
+    background-color: #DC9F96;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* order */
+.form-container, .top-form-container label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-form-container{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 40px 0;
+}
+.top-form-container, .bottom-form-container, .wpcf7-submit {
+    width: 100%;
+}
+.top-form-content p, .bottom-form-container {
+    display: flex;
+    justify-content: space-between;
+}
+.top-form-container label:before {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+    height: 160px;
+    width: 240px;
+    padding: 20px;
+}
+.top-form-container label:nth-of-type(1):before {
+    content: 'FRAISE';
+    background-image: url(http://localhost/planty/wp-content/uploads/2024/06/fraise-1.png);
+    background-size: cover;
+}
+.top-form-container label:nth-of-type(2):before {
+    content: 'PAMPLE MOUSSE';
+    background-image: url(http://localhost/planty/wp-content/uploads/2024/06/pamplemousse-1.png);
+    background-size: cover;
+}
+.top-form-container label:nth-of-type(3):before {
+    content: 'FRAM BOISE';
+    background-image: url(http://localhost/planty/wp-content/uploads/2024/06/framboise-1.png);
+    background-size: cover;
+}
+.top-form-container label:nth-of-type(4):before {
+    content: 'CITRON';
+    background-image: url(http://localhost/planty/wp-content/uploads/2024/06/citron-1.png);
+    background-size: cover;
+}
+
+.top-form-container label span {
+    width: 50px;
+}
+.right-form, .left-form {
+    width: 50%;
+}
+.left-form {
+    padding-right: 40px;
+    border-right: 1px solid #fff;
+}
+.right-form {
+    padding-left: 40px;
+}
+.top-form-container h3, .bottom-form-container h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.bottom-form-container {
+    margin: 40px 0;
+}
+.top-form-container h3, .bottom-form-container h3, .form-container label {
+    color: #fff;
+}
+.form-container input {
+    margin-top: 10px;
+}
+.elementor-kit-5 input[type="submit"] {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .header-inner {
+        padding: 30px 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    .custom-logo-link img {
+        width: 250px;
+        padding-left: 10px;
+    }
+
+    .toggle-icon {
+        color:#C02E44;
+    }
+    .toggle-text {
+        display: none;
+    }
+    .mobile-nav-toggle:hover, .toggle {
+        background-color: #DC9F96 !important;
+    }
+    .section-inner {
+        max-width: unset;
+        width: 100%;
+        margin: 0;
+    }
+    .modal-menu {
+        width: 100%;
+    }
+    .modal-menu a, .modal-menu > li > a, .modal-menu > li > .ancestor-wrapper > a, .modal-menu a:hover  {
+        font-size: 16px;
+        line-height: unset;
+        font-weight: 700;
+        color:#000;
+        text-decoration: none;
+    }
+    li.menu-item {
+        padding: 10px ;
+    }
+    .top-form-content p, .bottom-form-container {
+        flex-wrap: wrap;
+    }
+    .top-form-content p label {
+        flex-direction: row;
+        min-width: 50%;
+    }
+    .top-form-content p label::before {
+        margin-right: 50px;
+    }
+    .left-form, .right-form {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+}
