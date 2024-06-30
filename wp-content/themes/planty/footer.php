@@ -12,23 +12,44 @@
  */
 
 ?>
-			<footer id="site-footer" class="header-footer-group">
+<footer id="site-footer" class="header-footer-group">
 
-				<div class="section-inner">
+	<div class="section-inner">
 
-					<div class="footer-credits">
+		<div class="footer-navigation-wrapper">
 
-						<?php
-						echo '<p class="privacy-policy"> <a href="#"> Mentions légales </a> </p>';
-						?>
+			<?php if ( has_nav_menu( 'footer' ) ) { ?>
 
-					</div><!-- .footer-credits -->
+			<nav class="footer-menu-wrapper" aria-label="<?php echo esc_attr_x( 'Horizontal', 'footer', 'twentytwenty' ); ?>">
 
-				</div><!-- .section-inner -->
+				<ul class="footer-menu reset-list-style">
 
-			</footer><!-- #site-footer -->
+				<?php
+				if ( has_nav_menu( 'footer' ) ) {
 
-		<?php wp_footer(); ?>
+					wp_nav_menu(
+						array(
+							'container'  => '',
+							'items_wrap' => '%3$s',
+							'theme_location' => 'footer',
+						)
+					);
 
-	</body>
+				} 
+			}
+			?>
+
+			</ul>
+
+			</nav> <!-- .footer-menu-wrapper -->
+		
+		</div>	<!-- .footer-navigation-wrappe -->
+
+	</div><!-- .section-inner -->
+
+</footer><!-- #site-footer -->
+
+<?php wp_footer(); ?>
+
+</body>
 </html>
