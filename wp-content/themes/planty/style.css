@@ -260,6 +260,12 @@ div.wpforms-container-full .wpforms-confirmation-container-full, .wpcf7 form.fai
 .elementor-kit-5 input[type="submit"] {
     text-transform: capitalize;
     text-decoration: none;
+    width: 70%;
+}
+#wpcf7-f397-p192-o1 form p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Responsive */
