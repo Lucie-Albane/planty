@@ -267,6 +267,9 @@ div.wpforms-container-full .wpforms-confirmation-container-full, .wpcf7 form.fai
     flex-direction: column;
     align-items: center;
 }
+#wpcf7-f286-p189-o1 input[type="submit"] {
+    width: 100%;
+}
 
 /* Responsive */
 @media (max-width: 1023px) {
